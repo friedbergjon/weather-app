@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const hostname = 'localhost';
 const port = 5000;
-require ('dotenv').config();
+require('dotenv').config();
 const cors = require('cors');
 const axios = require('axios');
 const bodyParser = require('body-parser');
